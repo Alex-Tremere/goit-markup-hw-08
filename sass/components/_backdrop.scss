@@ -1,9 +1,0 @@
-.backdrop {
-  @include size(100%, 100%);
-  transition: opacity 500ms linear, visibility 500ms;
-
-  background-color: $bgc-backdrop;
-  &--position {
-    @include position(fixed, 0, 0);
-  }
-}
